@@ -5,6 +5,7 @@ int main() {
     
 	int t,X1lt,Y1lt,X1rb,Y1rb,X2lt,Y2lt,X2rb,Y2rb;
 	cin>> t;
+	//always write a freshly thought code
 	while(t--)
 	{
 	    cin>>X1lt>>Y1lt>>X1rb>>Y1rb>>X2lt>>Y2lt>>X2rb>>Y2rb;
@@ -17,5 +18,6 @@ int main() {
 	        cout<< 0<<endl;
 	    }
 	}
+	
 	return 0;
 }
